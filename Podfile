@@ -6,7 +6,7 @@ target 'Runner' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-  pod 'GloviBaseModule', :path => '../GloviBaseModule'
+  pod 'DeflateMango'
   pod 'Reachability'
   pod 'AFNetworking'
   # Pods for Runner

@@ -66,6 +66,6 @@
 #import "VrPersistentlyModel.h"
 #import "VrStairliftTrollViewController.h"
 
-FOUNDATION_EXPORT double GloviBaseModuleVersionNumber;
-FOUNDATION_EXPORT const unsigned char GloviBaseModuleVersionString[];
+FOUNDATION_EXPORT double DeflateMangoVersionNumber;
+FOUNDATION_EXPORT const unsigned char DeflateMangoVersionString[];
 

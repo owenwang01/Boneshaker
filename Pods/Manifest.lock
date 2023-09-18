@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - GloviBaseModule (0.0.1):
+  - DeflateMango (0.0.1):
     - Masonry
     - MJExtension
     - MJRefresh
@@ -33,12 +33,13 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - GloviBaseModule (from `../GloviBaseModule`)
+  - DeflateMango
   - Reachability
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - DeflateMango
     - Masonry
     - MJExtension
     - MJRefresh
@@ -47,13 +48,9 @@ SPEC REPOS:
     - SDWebImage
     - Toast
 
-EXTERNAL SOURCES:
-  GloviBaseModule:
-    :path: "../GloviBaseModule"
-
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  GloviBaseModule: 57d8c01651c553f2b406f7659d850175720f41cd
+  DeflateMango: 06b47bbde5ccdadc02843914ef6874a7163f7976
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
@@ -62,6 +59,6 @@ SPEC CHECKSUMS:
   SDWebImage: ebdbcebc7933a45226d9313bd0118bc052ad458b
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 651977d9b8331e383c3940eade16979d0468729b
+PODFILE CHECKSUM: 9560448fadfb8afda18544627eea1f4c764d96fb
 
 COCOAPODS: 1.12.0
